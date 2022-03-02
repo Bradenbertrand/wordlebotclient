@@ -27,7 +27,7 @@ function App() {
       <div className="columnContainer">
         <div className="column">
           <div className="buttonContainer">
-            <button className="leaderboardButton" onClick={handlePointsLeaderboard}>Points Leaderboard</button><button className="leaderboardButton" onClick={handleAvgLeaderboard}>Average Leaderboard</button>
+            <button className="leaderboardButton" onClick={handlePointsLeaderboard}>Points</button><button className="leaderboardButton" onClick={handleAvgLeaderboard}>Average</button>
           </div>
           {state.leaderboard === 0 ? <AvgLeaderboard /> : <PointsLeaderboard />}
         </div>
