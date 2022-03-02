@@ -24,11 +24,11 @@ function App() {
       <header className="header">
         <h1 className="headerText"><span className="greenText">Wordle</span>Bot Leaderboard</h1>
       </header>
-      <div className="columnContainer">
-        <div className="column">
-          <div className="buttonContainer">
+      <div className="buttonContainer">
             <button className="leaderboardButton" onClick={handlePointsLeaderboard}>Points</button><button className="leaderboardButton" onClick={handleAvgLeaderboard}>Average</button>
           </div>
+      <div className="columnContainer">
+        <div className="column">
           {state.leaderboard === 0 ? <AvgLeaderboard /> : <PointsLeaderboard />}
         </div>
         <div className="column"><Tutorial /></div>

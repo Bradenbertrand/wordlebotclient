@@ -56,9 +56,10 @@ button {
 
 .buttonContainer {
   height: 7vh;
-  width: 20vw;
+  width: 100vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .leaderboardButton {
