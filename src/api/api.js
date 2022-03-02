@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/';
+const url = 'https://wordleleaderboardserver.herokuapp.com/';
 
 export const fetchAvg = async () => {
     console.log("Fetching Posts");
